@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!---style information-->
+
+
+    <style>
+        a {
+            text-decoration:none;
+            color:black;
+        }
+        a:hover {
+            color:grey;
+        }
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        li {
+            float: right;
+            padding: 10px 10px;
+            }
+        #navbar{
+            height:23px;
+            bottom:4px;
+            position:relative;
+        }
+        #mainlogobox {
+             display:flex;
+        }
+        #mainlogo{
+            margin:auto;
+            width:25%;
+            position:relative;
+            display:block;
+        }
+        #searchbarframe{
+            margin:auto;
+            width:450px;
+            border-radius:30px;
+            border:1px solid #dcdcdc;
+            padding-left:10px;
+        }
+        #searchbar {
+            height:45px;
+            border:none;
+            width:400px;
+            font-size:16px;
+            outline: none;
+           
+        }
+        #buttons {
+            width:200px;
+            height:40px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:10px 10px;
+        }
+    </style>
+</head>
+
+
+<!--webpages body -->
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="#email">Email</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</header>
+<div id='main-logo'>
+    <img id="mainlogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</div>   
+
+<div id="searchbarframe">
+    <input 
+        id="searchbar"
+        type="text" 
+        placeholder="What does your heart desire?""
+        name="search"
+    >
+</div>
+
+<div id="buttons">
+    <button> Search </button>
+    <button>I'm Feeling Lucky</button>
+</div>
+</html>
